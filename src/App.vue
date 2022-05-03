@@ -6,7 +6,8 @@
     <ListComponent /> -->
     <!-- <ListConditionalLoopComponent /> -->
     <!-- <MethodsLessonComponent /> -->
-    <EventsLessonComponent />
+    <!-- <EventsLessonComponent /> -->
+    <FormLessonComponent />
   </div>
 </template>
 
@@ -14,14 +15,16 @@
   // import ListComponent from './components/ListComponent.vue'
   // import ListConditionalLoopComponent from './components/ListConditionalLoopComponent.vue'
   // import MethodsLessonComponent from './components/MethodsLessonComponent.vue'
-  import EventsLessonComponent from './components/EventsLessonComponent.vue'
+  // import EventsLessonComponent from './components/EventsLessonComponent.vue'
+  import FormLessonComponent from './components/FormLessonComponent.vue'
 export default {
   name: "App",
   components: {
     // ListComponent,
     // ListConditionalLoopComponent,
     // MethodsLessonComponent,
-    EventsLessonComponent
+    // EventsLessonComponent,
+    FormLessonComponent
   },
   data() {
     return {
