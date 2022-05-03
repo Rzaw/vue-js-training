@@ -4,18 +4,21 @@
     <p v-text="name"></p>
     <h1>List tutorial</h1>
     <ListComponent /> -->
-    <ListConditionalLoopComponent />
+    <!-- <ListConditionalLoopComponent /> -->
+    <MethodsLessonComponent />
   </div>
 </template>
 
 <script>
   // import ListComponent from './components/ListComponent.vue'
-  import ListConditionalLoopComponent from './components/ListConditionalLoopComponent.vue'
+  // import ListConditionalLoopComponent from './components/ListConditionalLoopComponent.vue'
+  import MethodsLessonComponent from './components/MethodsLessonComponent.vue'
 export default {
   name: "App",
   components: {
     // ListComponent,
-    ListConditionalLoopComponent
+    // ListConditionalLoopComponent,
+    MethodsLessonComponent
   },
   data() {
     return {
