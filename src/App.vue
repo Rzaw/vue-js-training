@@ -5,20 +5,23 @@
     <h1>List tutorial</h1>
     <ListComponent /> -->
     <!-- <ListConditionalLoopComponent /> -->
-    <MethodsLessonComponent />
+    <!-- <MethodsLessonComponent /> -->
+    <EventsLessonComponent />
   </div>
 </template>
 
 <script>
   // import ListComponent from './components/ListComponent.vue'
   // import ListConditionalLoopComponent from './components/ListConditionalLoopComponent.vue'
-  import MethodsLessonComponent from './components/MethodsLessonComponent.vue'
+  // import MethodsLessonComponent from './components/MethodsLessonComponent.vue'
+  import EventsLessonComponent from './components/EventsLessonComponent.vue'
 export default {
   name: "App",
   components: {
     // ListComponent,
     // ListConditionalLoopComponent,
-    MethodsLessonComponent
+    // MethodsLessonComponent,
+    EventsLessonComponent
   },
   data() {
     return {
