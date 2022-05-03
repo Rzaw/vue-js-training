@@ -7,19 +7,21 @@
       </pre
     >
   </div>
-  <form @submit="submitForm">
+    
+    <!-- Modifiers can be chained -->
+    <!-- .trim is the same as .trim() -->
+    <!-- .number converts input to numeric value (by default it is string) -->
+    <!-- .lazy disable live input of v-model -->
+    <!-- .prevent (in form tag) prevents default beheviour of form submition event -->
+
+  <form @submit.prevent="submitForm">
     <div>
       <label for="input-name">Name</label>
-      <input type="text" id="input-name" v-model="formValues.name" />
+      <input type="text" id="input-name" v-model.trim.lazy="formValues.name" />
     </div>
     <div>
       <label for="input-profile">Profile Summary</label>
-      <textarea
-        id="input-profile"
-        cols="30"
-        rows="10"
-        v-model="formValues.profileSummary"
-      />
+      <textarea id="input-profile" cols="30" rows="10" v-model.lazy="formValues.profileSummary"/>
     </div>
     <div>
       <label for="input-country">Country</label>
@@ -69,6 +71,11 @@
     </div>
 
     <div>
+        <label for="input-age">Age</label>
+        <input type="number" id="input-age" minlength="1" v-model.number="formValues.age">
+    </div>
+
+    <div>
         <button type="submit">Submit</button>
     </div>
   </form>
@@ -86,13 +93,13 @@ export default {
         jobLocation: [],
         remoteWork: 'No',
         skillSet: [],
-        yearsOfExperience: ''
+        yearsOfExperience: '',
+        age: null
       },
     };
   },
   methods: {
-      submitForm(event){
-          event.preventDefault();
+      submitForm(){
           console.log('Form values', this.formValues);
       }
   },
