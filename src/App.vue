@@ -9,7 +9,8 @@
     <!-- <EventsLessonComponent /> -->
     <!-- <FormLessonComponent /> -->
     <!-- <DirectivesLessonComponent /> -->
-    <ComputedPropertiesLessonComponent />
+    <!-- <ComputedPropertiesLessonComponent /> -->
+    <ComputedPropsVforComponent />
   </div>
 </template>
 
@@ -20,7 +21,8 @@
   // import EventsLessonComponent from './components/EventsLessonComponent.vue'
   // import FormLessonComponent from './components/FormLessonComponent.vue'
   // import DirectivesLessonComponent from './components/DirectivesLessonComponent.vue'
-  import ComputedPropertiesLessonComponent from './components/ComputedPropertiesLessonComponent.vue'
+  // import ComputedPropertiesLessonComponent from './components/ComputedPropertiesLessonComponent.vue'
+  import ComputedPropsVforComponent from './components/ComputedPropsVforComponent.vue'
 export default {
   name: "App",
   components: {
@@ -29,7 +31,8 @@ export default {
     // MethodsLessonComponent,
     // EventsLessonComponent,
     // DirectivesLessonComponent,
-    ComputedPropertiesLessonComponent
+    // ComputedPropertiesLessonComponent
+    ComputedPropsVforComponent
   },
   data() {
     return {
