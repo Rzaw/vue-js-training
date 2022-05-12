@@ -10,7 +10,8 @@
     <!-- <FormLessonComponent /> -->
     <!-- <DirectivesLessonComponent /> -->
     <!-- <ComputedPropertiesLessonComponent /> -->
-    <ComputedPropsVforComponent />
+    <!-- <ComputedPropsVforComponent /> -->
+    <ComputedSetterComponent />
   </div>
 </template>
 
@@ -22,7 +23,8 @@
   // import FormLessonComponent from './components/FormLessonComponent.vue'
   // import DirectivesLessonComponent from './components/DirectivesLessonComponent.vue'
   // import ComputedPropertiesLessonComponent from './components/ComputedPropertiesLessonComponent.vue'
-  import ComputedPropsVforComponent from './components/ComputedPropsVforComponent.vue'
+  // import ComputedPropsVforComponent from './components/ComputedPropsVforComponent.vue'
+  import ComputedSetterComponent from './components/ComputedSetterComponent.vue'
 export default {
   name: "App",
   components: {
@@ -32,7 +34,8 @@ export default {
     // EventsLessonComponent,
     // DirectivesLessonComponent,
     // ComputedPropertiesLessonComponent
-    ComputedPropsVforComponent
+    // ComputedPropsVforComponent
+    ComputedSetterComponent
   },
   data() {
     return {
