@@ -13,7 +13,7 @@
     <!-- <ComputedPropsVforComponent /> -->
     <!-- <ComputedSetterComponent /> -->
     <!-- <WatchersComponent /> -->
-    <GreetComponent />
+<BasicComponentManipulationComponent />
   </div>
 </template>
 
@@ -28,7 +28,7 @@
   // import ComputedPropsVforComponent from './components/ComputedPropsVforComponent.vue'
   // import ComputedSetterComponent from './components/ComputedSetterComponent.vue'
   // import WatchersComponent from './components/WatchersComponent.vue'
-  import GreetComponent from './components/ComponentLessons/GreetComponent.vue';
+  import BasicComponentManipulationComponent from './components/ComponentLessons/BasicComponentManipulationComponent.vue';
 export default {
   name: "App",
   components: {
@@ -41,7 +41,7 @@ export default {
     // ComputedPropsVforComponent
     // ComputedSetterComponent
     // WatchersComponent
-    GreetComponent
+    BasicComponentManipulationComponent
 },
   data() {
     return {
