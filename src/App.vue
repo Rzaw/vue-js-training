@@ -11,7 +11,8 @@
     <!-- <DirectivesLessonComponent /> -->
     <!-- <ComputedPropertiesLessonComponent /> -->
     <!-- <ComputedPropsVforComponent /> -->
-    <ComputedSetterComponent />
+    <!-- <ComputedSetterComponent /> -->
+    <WatchersComponent />
   </div>
 </template>
 
@@ -24,7 +25,8 @@
   // import DirectivesLessonComponent from './components/DirectivesLessonComponent.vue'
   // import ComputedPropertiesLessonComponent from './components/ComputedPropertiesLessonComponent.vue'
   // import ComputedPropsVforComponent from './components/ComputedPropsVforComponent.vue'
-  import ComputedSetterComponent from './components/ComputedSetterComponent.vue'
+  // import ComputedSetterComponent from './components/ComputedSetterComponent.vue'
+  import WatchersComponent from './components/WatchersComponent.vue'
 export default {
   name: "App",
   components: {
@@ -35,7 +37,8 @@ export default {
     // DirectivesLessonComponent,
     // ComputedPropertiesLessonComponent
     // ComputedPropsVforComponent
-    ComputedSetterComponent
+    // ComputedSetterComponent
+    WatchersComponent
   },
   data() {
     return {
